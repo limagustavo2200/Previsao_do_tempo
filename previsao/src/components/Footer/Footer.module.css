@@ -6,7 +6,7 @@ footer {
     z-index: 1000000;
     background: linear-gradient(to right, #0083b0, #00b4db);
     opacity: 0.8;
-    color: #fff;
+    color: black;
     display: flex;
     justify-content: center;
     text-align: center;
