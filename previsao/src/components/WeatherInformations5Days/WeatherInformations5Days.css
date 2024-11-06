@@ -1,0 +1,31 @@
+.weather-forecast {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+
+    h3 {
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+    }
+}
+
+.weather-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.weather-item {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.forecast-day, .forecast-description{
+    text-transform: capitalize;
+    font-size: 1.1rem;
+}
+
