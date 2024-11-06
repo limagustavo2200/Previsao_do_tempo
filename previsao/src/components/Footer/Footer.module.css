@@ -1,0 +1,17 @@
+footer {
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1000000;
+    background: linear-gradient(to right, #0083b0, #00b4db);
+    opacity: 0.8;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    padding: 8px;
+    font-weight: bold;
+}

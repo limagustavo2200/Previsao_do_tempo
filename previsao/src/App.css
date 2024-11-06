@@ -3,6 +3,8 @@
     padding: 20px;
     margin: 0 auto;
     text-align: center;
+    flex: 1;
+    margin-bottom: 30px;
 }
 
 
@@ -73,11 +75,12 @@ h1 {
     }
 }
 
+
 .slide-in-left {
-    animation: slideInFromLeft 0.7s ease-out forwards;
+    animation: slideInFromLeft 0.5s ease-out forwards;
 }
 
 .slide-in-right {
-    animation: slideInFromRight 0.7s ease-out forwards;
+    animation: slideInFromRight 0.5s ease-out forwards;
 }
 

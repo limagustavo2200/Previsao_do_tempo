@@ -3,6 +3,7 @@ import './App.css'
 import axios from 'axios'
 import WeatherInformations from './components/WeatherInformations'
 import WeatherInformations5Days from './components/WeatherInformations5Days/WeatherInformation5Days'
+import Footer from './components/Footer'
 
 function App() {
   const [weather, setWeather] = useState(null)
@@ -24,10 +25,10 @@ function App() {
       setWeather(apiInfo.data);
       setWeather5Days(apiInfo5Days.data);
       setStatus(preStatus => preStatus + 1);
-      setError(null); 
+      setError(null);
 
     } catch (error) {
-      setError("Nome não encontrado"); 
+      setError("Nome não encontrado");
       console.error("Erro ao buscar dados da API:", error);
     }
   }
@@ -52,8 +53,8 @@ function App() {
           <WeatherInformations5Days weather5Days={weather5Days} />
         </div>
       )}
-
     </div>
+
   )
 }
 
