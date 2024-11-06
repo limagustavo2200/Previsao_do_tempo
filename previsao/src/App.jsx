@@ -3,7 +3,6 @@ import './App.css'
 import axios from 'axios'
 import WeatherInformations from './components/WeatherInformations'
 import WeatherInformations5Days from './components/WeatherInformations5Days/WeatherInformation5Days'
-import Footer from './components/Footer'
 
 function App() {
   const [weather, setWeather] = useState(null)
