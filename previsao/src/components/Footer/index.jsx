@@ -1,6 +1,6 @@
 import './Footer.module.css'
 
-export default function Fotter() {
+export default function Footer() {
     return (
         <footer>
             <p><span>Developed by Gustavo Lima de Carvalho</span></p>

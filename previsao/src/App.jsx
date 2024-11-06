@@ -53,7 +53,7 @@ function App() {
           <WeatherInformations5Days weather5Days={weather5Days} />
         </div>
       )}
-      <Footer />
+      {/* <Footer /> */}
     </div>
 
   )
